@@ -31,11 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         CommonClass.sharedInstance.customizeUITabBar()
         CommonClass.sharedInstance.customizeUISearchBar()
         
-        GMSServices.provideAPIKey("AIzaSyBv021fbIY4Rs2wdONNxDdKqok5hgTeH6U")
-        GMSPlacesClient.provideAPIKey("AIzaSyASSANM7jPmPgfcIITHmfE-n1VUfsNmKdw")
-        
-        SwiftLocation.credentials[.google] = "AIzaSyASSANM7jPmPgfcIITHmfE-n1VUfsNmKdw"
-        
 //        google sign in key
 //        349642119478-tu8u7t0n7s2t5pla3ni81064fjrq1vu2.apps.googleusercontent.com
         
