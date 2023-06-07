@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="propertyLikedCell" rowHeight="97" id="KGk-i7-Jjw" customClass="PropertyLikeTableViewCell" customModule="Sould" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="122"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P9W-Ks-yIQ">
+                        <rect key="frame" x="15" y="15" width="370" height="92"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" translatesAutoresizingMaskIntoConstraints="NO" id="T8z-Hj-FPb">
+                                <rect key="frame" x="0.0" y="11" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="KSS-RS-Jg6"/>
+                                    <constraint firstAttribute="width" constant="70" id="ZgL-Ow-80u"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="zht-Jj-lf2">
+                                <rect key="frame" x="80.000000000000014" y="6.6666666666666714" width="201.33333333333337" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="MLS# 1234567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-K1-0JR">
+                                        <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="12.333333333333334"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uAz-sx-QNf">
+                                        <rect key="frame" x="0.0" y="12.333333333333332" width="86" height="19.999999999999996"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gGo-T5-GdP">
+                                                <rect key="frame" x="0.0" y="0.0" width="38" height="20"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="room_icon" translatesAutoresizingMaskIntoConstraints="NO" id="p2j-jm-Qo3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="3qR-rn-fSI"/>
+                                                            <constraint firstAttribute="height" constant="20" id="ocO-YG-07q"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5F-13-jAj">
+                                                        <rect key="frame" x="30" y="0.0" width="8" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="red-Bz-Zgs">
+                                                <rect key="frame" x="48" y="0.0" width="38" height="20"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rest_room_icon" translatesAutoresizingMaskIntoConstraints="NO" id="sev-r3-q8S">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="q06-DG-wQu"/>
+                                                            <constraint firstAttribute="height" constant="20" id="qz9-LY-vLr"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8Y-3N-B40">
+                                                        <rect key="frame" x="30" y="0.0" width="8" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scarborough, On" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMI-WW-VYS">
+                                        <rect key="frame" x="0.0" y="32.333333333333329" width="133" height="18.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clairlea-Birchmount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUu-ty-DlI">
+                                        <rect key="frame" x="0.0" y="50.666666666666657" width="132.33333333333334" height="16"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="MLS# 1234567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cc-nB-Oey">
+                                        <rect key="frame" x="0.0" y="66.666666666666657" width="70.333333333333329" height="12.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Yx-V7-aJs">
+                                <rect key="frame" x="291.33333333333331" y="22.666666666666668" width="78.666666666666686" height="46.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="98%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nw0-Qj-7vZ">
+                                        <rect key="frame" x="46.666666666666686" y="0.0" width="32" height="18.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$1,999,999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6v-PE-OlX">
+                                        <rect key="frame" x="0.0" y="28.333333333333336" width="78.666666666666671" height="18.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P9W-Ks-yIQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="9dQ-tx-dIM"/>
+                    <constraint firstAttribute="trailing" secondItem="P9W-Ks-yIQ" secondAttribute="trailing" constant="10" id="NAP-FP-G8Y"/>
+                    <constraint firstItem="P9W-Ks-yIQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PHH-Kg-g3A"/>
+                    <constraint firstAttribute="bottom" secondItem="P9W-Ks-yIQ" secondAttribute="bottom" constant="15" id="go9-4A-mnq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bathStackView" destination="red-Bz-Zgs" id="qga-Ha-If4"/>
+                <outlet property="bathroomLabel" destination="f8Y-3N-B40" id="v4F-7M-fbj"/>
+                <outlet property="bedStackView" destination="gGo-T5-GdP" id="y2d-UM-t53"/>
+                <outlet property="bedroomLabel" destination="o5F-13-jAj" id="sue-9a-YTM"/>
+                <outlet property="descLabel" destination="8Cc-nB-Oey" id="xiR-NY-ahv"/>
+                <outlet property="houseImageView" destination="T8z-Hj-FPb" id="aYx-qf-d0f"/>
+                <outlet property="nameLabel" destination="GMI-WW-VYS" id="De1-m1-V0X"/>
+                <outlet property="priceLabel" destination="y6v-PE-OlX" id="W2T-yq-UMN"/>
+                <outlet property="streelLabel" destination="8tv-K1-0JR" id="QgS-wY-9ly"/>
+                <outlet property="subnameLabel" destination="gUu-ty-DlI" id="OOg-as-JM2"/>
+            </connections>
+            <point key="canvasLocation" x="79.230769230769226" y="-14.218009478672984"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="house" width="390" height="505"/>
+        <image name="rest_room_icon" width="28.666666030883789" height="23.666666030883789"/>
+        <image name="room_icon" width="33" height="25"/>
+    </resources>
+</document>

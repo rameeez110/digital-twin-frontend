@@ -1,0 +1,6 @@
+framework module Pods_Sould {
+  umbrella header "Pods-Sould-umbrella.h"
+
+  export *
+  module * { export * }
+}

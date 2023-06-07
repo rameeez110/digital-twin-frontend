@@ -1,0 +1,105 @@
+PODS:
+  - Alamofire (5.6.1)
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - BetterSegmentedControl (2.0.1)
+  - GoogleMaps (6.1.1):
+    - GoogleMaps/Maps (= 6.1.1)
+  - GoogleMaps/Base (6.1.1)
+  - GoogleMaps/Maps (6.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (7.0.0)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.3):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.1)
+  - IQKeyboardManagerSwift (6.5.9)
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
+  - Onboard (2.3.3)
+  - pop (1.0.12)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - STPopup (1.8.7)
+  - SVProgressHUD (2.2.5)
+  - SwiftLocation/Core (5.1.0)
+  - SwiftRangeSlider (2.0.0)
+  - SwiftyJSON (5.0.1)
+  - SwipeCellKit (2.7.1)
+  - ToastViewSwift (1.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - BetterSegmentedControl
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - Koloda
+  - Onboard
+  - SDWebImage
+  - STPopup
+  - SVProgressHUD
+  - SwiftLocation/Core
+  - SwiftRangeSlider
+  - SwiftyJSON
+  - SwipeCellKit
+  - ToastViewSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - BetterSegmentedControl
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Koloda
+    - Onboard
+    - pop
+    - SDWebImage
+    - STPopup
+    - SVProgressHUD
+    - SwiftLocation
+    - SwiftRangeSlider
+    - SwiftyJSON
+    - SwipeCellKit
+    - ToastViewSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  GoogleMaps: 94e6e0851beece6678af9f508f4918b7a7c61722
+  GooglePlaces: 8dba710bed6160a2e4b85e84aaafdbcc0b4010d8
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: 987526d41b07efb1bedda5e936fe0cb718a03113
+  GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  STPopup: a9045557bc48a0df51fbb7bf0544447c5fe84d34
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLocation: 83e0ea75a1969cee3a1197e2b7095603fc23fde5
+  SwiftRangeSlider: f86e3b637c961120158fa1a89277c8343845cbe4
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  ToastViewSwift: 18aa7c783b02cc55547cde7679f3771692297aae
+
+PODFILE CHECKSUM: 9545bd0a16f60cb2cf952339663f8f6d40080ee5
+
+COCOAPODS: 1.11.2
